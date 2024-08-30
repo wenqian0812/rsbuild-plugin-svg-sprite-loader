@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  color: #fff;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.icons {
+  display: flex;
+  font-size: 48px;
+  padding: 10%;
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
