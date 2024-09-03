@@ -1,6 +1,6 @@
 {
-  "name": "rsbuild-svg-sprite-loader",
-  "version": "0.0.1",
+  "name": "rsbuild-plugin-svg-sprite-loader",
+  "version": "0.0.2",
   "repository": {
     "url": "https://github.com/wenqian0812/rsbuild-plugin-svg-sprite-loader"
   },

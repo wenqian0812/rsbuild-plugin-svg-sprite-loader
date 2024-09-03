@@ -21,7 +21,7 @@ Add plugin to your `rsbuild.config.ts`:
 
 ```ts
 // rsbuild.config.ts
-import { pluginSvgSpriteLoader } from "rsbuild-svg-sprite-loader";
+import { pluginSvgSpriteLoader } from "rsbuild-plugin-svg-sprite-loader";
 
 export default {
   plugins: [
