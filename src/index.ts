@@ -48,7 +48,10 @@ function svgFind(directoryPath: string, idPrefix: string): string[] {
           );
           return `<symbol id="${name}" ${content}>`;
         })
-        .replace('</svg>', '</symbol>');
+        .replace('</svg>', '</symbol>')
+        .replaceAll('prefix_', () => {
+          return idPrefix.replace('[name]', dirent.name.replace('.svg', ''));
+        });
 
       svgs.push(svgContent);
     }
