@@ -49,7 +49,7 @@ function svgFind(directoryPath: string, idPrefix: string): string[] {
           return `<symbol id="${name}" ${content}>`;
         })
         .replace('</svg>', '</symbol>')
-        .replace('prefix_', () => {
+        .replaceAll('prefix_', () => {
           return idPrefix.replace('[name]', dirent.name.replace('.svg', ''));
         });
 
